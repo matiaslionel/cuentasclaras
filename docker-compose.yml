@@ -8,3 +8,9 @@ services:
     ports:
       - "4000:80"
     restart: unless-stopped
+    networks:
+      - cloudflared
+
+networks:
+  cloudflared:
+    external: true
