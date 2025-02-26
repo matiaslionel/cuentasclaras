@@ -3,6 +3,9 @@ FROM node:20-alpine as build
 
 WORKDIR /app
 
+# Agregar un argumento para forzar la reconstrucción
+ARG CACHEBUST=1
+
 # Copiar archivos de dependencias
 COPY package.json package-lock.json* ./
 
