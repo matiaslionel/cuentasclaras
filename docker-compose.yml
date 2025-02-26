@@ -5,6 +5,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        BUILDKIT_INLINE_CACHE: 0
+        CACHEBUST: ${CACHEBUST:-$(date +%s)}  # Esto fuerza la reconstrucción
     ports:
       - "4000:80"
     restart: unless-stopped
