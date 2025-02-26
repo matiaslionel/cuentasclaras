@@ -74,25 +74,6 @@ export function EventList() {
     }
   };
 
-  const onDelete = async (eventId: string) => {
-    if (!window.confirm(t('events.confirmDelete'))) return;
-    
-    try {
-      const { error } = await supabase
-        .from('events')
-        .delete()
-        .eq('id', eventId);
-
-      if (error) throw error;
-      
-      setEvents(events.filter(event => event.id !== eventId));
-      toast.success(t('notifications.success.eventDeleted'));
-    } catch (error) {
-      console.error('Error deleting event:', error);
-      toast.error(t('notifications.error.deleteEvent'));
-    }
-  };
-
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-left">

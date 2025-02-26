@@ -9,7 +9,6 @@ import { BalanceList } from '../components/BalanceList';
 import { ParticipantList } from '../components/ParticipantList';
 import { ArrowLeft } from 'lucide-react';
 import toast from 'react-hot-toast';
-import { supabase } from '../lib/supabase';
 
 export function EventDetail() {
   const { eventId } = useParams<{ eventId: string }>();
