@@ -1,14 +1,10 @@
+version: '3'
+
 services:
   cuentasclaras:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:80"  # Mapea el puerto 8080 del host al puerto 80 del contenedor
+      - "4000:80"
     restart: unless-stopped
-    environment:
-      - VITE_SUPABASE_URL=${VITE_SUPABASE_URL}
-      - VITE_SUPABASE_KEY=${VITE_SUPABASE_KEY}
-    # Si necesitas persistencia de datos (opcional)
-    # volumes:
-    #   - ./data:/app/data
