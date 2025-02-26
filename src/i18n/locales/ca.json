@@ -1,0 +1,72 @@
+{
+  "events": {
+    "title": "Esdeveniments",
+    "new": "Nou esdeveniment",
+    "create": "Crear esdeveniment",
+    "name": "Nom",
+    "description": "Descripció",
+    "deleteAll": "Esborrar tot",
+    "empty": "No hi ha esdeveniments. Crea'n un de nou!",
+    "confirmDelete": "Estàs segur que vols esborrar totes les dades? Aquesta acció no es pot desfer."
+  },
+  "participants": {
+    "title": "Participants",
+    "add": "Afegir",
+    "new": "Afegir participant",
+    "placeholder": "Nom del participant",
+    "confirmDelete": "Estàs segur que vols eliminar aquest usuari?",
+    "cancel": "Cancel·lar"
+  },
+  "expenses": {
+    "title": "Despeses",
+    "add": "Afegir",
+    "new": "Nova Despesa",
+    "edit": "Editar Despesa",
+    "description": "Descripció",
+    "amount": "Import",
+    "paidBy": "Pagat per",
+    "participants": "Participants",
+    "empty": "No hi ha despeses registrades",
+    "minimumParticipants": "Es necessiten almenys 2 participants",
+    "splitAmount": "{{amount}}€ per persona ({{count}} participants)",
+    "customSplit": "Divisió personalitzada",
+    "totalSelected": "Total seleccionat",
+    "amountMismatch": "La suma de les participacions ha de ser igual a l'import total"
+  },
+  "balance": {
+    "title": "Balanç",
+    "copy": "Copiar balanç",
+    "copied": "Balanç copiat al porta-retalls",
+    "noDebts": "No hi ha deutes pendents"
+  },
+  "common": {
+    "back": "Tornar",
+    "save": "Desar",
+    "cancel": "Cancel·lar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "unknown": "Usuari desconegut"
+  },
+  "notifications": {
+    "error": {
+      "loadUsers": "Error en carregar els usuaris",
+      "addUser": "Error en afegir l'usuari",
+      "deleteUser": "Error en eliminar l'usuari",
+      "loadExpenses": "Error en carregar les despeses",
+      "addExpense": "Error en afegir la despesa",
+      "editExpense": "Error en editar la despesa",
+      "deleteExpense": "Error en eliminar la despesa",
+      "copyBalance": "Error en copiar el balanç",
+      "deleteAll": "Error en esborrar totes les dades"
+    },
+    "success": {
+      "userAdded": "Usuari afegit correctament",
+      "userDeleted": "Usuari eliminat correctament",
+      "expenseAdded": "Despesa afegida correctament",
+      "expenseEdited": "Despesa editada correctament",
+      "expenseDeleted": "Despesa eliminada correctament",
+      "balanceCopied": "Balanç copiat correctament",
+      "deleteAll": "Totes les dades han estat esborrades"
+    }
+  }
+} 

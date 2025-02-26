@@ -1,0 +1,72 @@
+{
+  "events": {
+    "title": "Événements",
+    "new": "Nouvel événement",
+    "create": "Créer événement",
+    "name": "Nom",
+    "description": "Description",
+    "deleteAll": "Tout supprimer",
+    "empty": "Pas d'événements. Créez-en un nouveau !",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer toutes les données ? Cette action ne peut pas être annulée."
+  },
+  "participants": {
+    "title": "Participants",
+    "add": "Ajouter",
+    "new": "Ajouter un participant",
+    "placeholder": "Nom du participant",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet utilisateur ?",
+    "cancel": "Annuler"
+  },
+  "expenses": {
+    "title": "Dépenses",
+    "add": "Ajouter",
+    "new": "Nouvelle dépense",
+    "edit": "Modifier la dépense",
+    "description": "Description",
+    "amount": "Montant",
+    "paidBy": "Payé par",
+    "participants": "Participants",
+    "empty": "Aucune dépense enregistrée",
+    "minimumParticipants": "Au moins 2 participants sont nécessaires",
+    "splitAmount": "{{amount}}€ par personne ({{count}} participants)",
+    "customSplit": "Répartition personnalisée",
+    "totalSelected": "Total sélectionné",
+    "amountMismatch": "La somme des participations doit être égale au montant total"
+  },
+  "balance": {
+    "title": "Balance",
+    "copy": "Copier la balance",
+    "copied": "Balance copiée dans le presse-papiers",
+    "noDebts": "Aucune dette en attente"
+  },
+  "common": {
+    "back": "Retour",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "unknown": "Utilisateur inconnu"
+  },
+  "notifications": {
+    "error": {
+      "loadUsers": "Erreur lors du chargement des utilisateurs",
+      "addUser": "Erreur lors de l'ajout de l'utilisateur",
+      "deleteUser": "Erreur lors de la suppression de l'utilisateur",
+      "loadExpenses": "Erreur lors du chargement des dépenses",
+      "addExpense": "Erreur lors de l'ajout de la dépense",
+      "editExpense": "Erreur lors de la modification de la dépense",
+      "deleteExpense": "Erreur lors de la suppression de la dépense",
+      "copyBalance": "Erreur lors de la copie de la balance",
+      "deleteAll": "Erreur lors de la suppression de toutes les données"
+    },
+    "success": {
+      "userAdded": "Utilisateur ajouté avec succès",
+      "userDeleted": "Utilisateur supprimé avec succès",
+      "expenseAdded": "Dépense ajoutée avec succès",
+      "expenseEdited": "Dépense modifiée avec succès",
+      "expenseDeleted": "Dépense supprimée avec succès",
+      "balanceCopied": "Balance copiée avec succès",
+      "deleteAll": "Toutes les données ont été supprimées"
+    }
+  }
+} 

@@ -1,0 +1,85 @@
+{
+  "events": {
+    "title": "Eventos",
+    "new": "Nuevo evento",
+    "create": "Crear evento",
+    "name": "Nombre",
+    "namePlaceholder": "Nombre del evento",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Descripción del evento",
+    "deleteAll": "Borrar todo",
+    "empty": "No hay eventos. ¡Crea uno nuevo!",
+    "confirmDelete": "¿Estás seguro de que quieres borrar todos los datos? Esta acción no se puede deshacer.",
+    "appTitle": "Cuentas Claras",
+    "createNew": "Crear nuevo evento",
+    "selectExisting": "o selecciona un evento existente"
+  },
+  "participants": {
+    "title": "Participantes",
+    "add": "Añadir",
+    "new": "Añadir participante",
+    "placeholder": "Nombre del participante",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar este usuario?",
+    "cancel": "Cancelar"
+  },
+  "expenses": {
+    "title": "Gastos",
+    "add": "Añadir",
+    "new": "Nuevo Gasto",
+    "edit": "Editar Gasto",
+    "description": "Descripción",
+    "descriptionRequired": "La descripción es obligatoria",
+    "amount": "Monto",
+    "amountRequired": "El monto es obligatorio",
+    "paidBy": "Pagado por: {{name}}",
+    "paidByRequired": "Debes seleccionar quién pagó",
+    "participants": "Participantes",
+    "noParticipants": "Sin participantes",
+    "noParticipantsSelected": "Debes seleccionar al menos un participante",
+    "empty": "No hay gastos registrados",
+    "minimumParticipants": "Se necesitan al menos 2 participantes",
+    "splitAmount": "{{amount}}€ por persona ({{count}} participantes)",
+    "customSplit": "División personalizada",
+    "totalSelected": "Total seleccionado",
+    "amountMismatch": "La suma de las participaciones debe ser igual al monto total",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar este gasto?"
+  },
+  "balances": {
+    "title": "Balance",
+    "copy": "Copiar balance",
+    "copied": "Balance copiado al portapapeles",
+    "noDebts": "No hay deudas pendientes"
+  },
+  "common": {
+    "back": "Volver",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "unknown": "Usuario desconocido",
+    "loading": "Cargando",
+    "eventNotFound": "Evento no encontrado"
+  },
+  "notifications": {
+    "success": {
+      "copied": "Copiado al portapapeles",
+      "eventCreated": "Evento creado correctamente",
+      "participantAdded": "Participante añadido correctamente",
+      "expenseAdded": "Gasto añadido correctamente",
+      "expenseUpdated": "Gasto actualizado correctamente",
+      "expenseDeleted": "Gasto eliminado correctamente",
+      "allEventsDeleted": "Todos los eventos han sido eliminados"
+    },
+    "error": {
+      "copy": "Error al copiar al portapapeles",
+      "loadEvent": "Error al cargar el evento",
+      "loadEvents": "Error al cargar los eventos",
+      "createEvent": "Error al crear el evento",
+      "addParticipant": "Error al añadir el participante",
+      "addExpense": "Error al añadir el gasto",
+      "updateExpense": "Error al actualizar el gasto",
+      "deleteExpense": "Error al eliminar el gasto",
+      "deleteEvents": "Error al eliminar los eventos"
+    }
+  }
+} 

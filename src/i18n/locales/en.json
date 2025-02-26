@@ -1,0 +1,90 @@
+{
+  "events": {
+    "title": "Events",
+    "new": "New event",
+    "create": "Create event",
+    "name": "Name",
+    "description": "Description",
+    "deleteAll": "Delete all",
+    "empty": "No events. Create a new one!",
+    "confirmDelete": "Are you sure you want to delete all data? This action cannot be undone."
+  },
+  "participants": {
+    "title": "Participants",
+    "add": "Add",
+    "new": "Add participant",
+    "placeholder": "Participant name",
+    "confirmDelete": "Are you sure you want to delete this user?",
+    "cancel": "Cancel"
+  },
+  "expenses": {
+    "title": "Expenses",
+    "add": "Add",
+    "new": "New Expense",
+    "edit": "Edit Expense",
+    "description": "Description",
+    "amount": "Amount",
+    "paidBy": "Paid by: {{name}}",
+    "participants": "Participants",
+    "noParticipants": "No participants",
+    "noParticipantsSelected": "You must select at least one participant",
+    "empty": "No expenses recorded",
+    "minimumParticipants": "At least 2 participants are needed",
+    "splitAmount": "{{amount}}€ per person ({{count}} participants)",
+    "customSplit": "Custom split",
+    "totalSelected": "Selected total",
+    "amountMismatch": "The sum of shares must equal the total amount"
+  },
+  "balance": {
+    "title": "Balance",
+    "copy": "Copy balance",
+    "copied": "Balance copied to clipboard",
+    "noDebts": "No pending debts"
+  },
+  "common": {
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "unknown": "Unknown user",
+    "loading": "Loading...",
+    "eventNotFound": "Event not found"
+  },
+  "notifications": {
+    "error": {
+      "loadUsers": "Error loading users",
+      "addUser": "Error adding user",
+      "deleteUser": "Error deleting user",
+      "loadExpenses": "Error loading expenses",
+      "addExpense": "Error adding expense",
+      "editExpense": "Error editing expense",
+      "deleteExpense": "Error deleting expense",
+      "copyBalance": "Error copying balance",
+      "deleteAll": "Error deleting all data",
+      "loadEvents": "Error loading events",
+      "loadEvent": "Error loading event",
+      "createEvent": "Error creating event",
+      "deleteEvent": "Error deleting event",
+      "deleteEvents": "Error deleting events",
+      "addParticipant": "Error adding participant",
+      "deleteParticipant": "Error deleting participant",
+      "updateExpense": "Error updating expense"
+    },
+    "success": {
+      "userAdded": "User added successfully",
+      "userDeleted": "User deleted successfully",
+      "expenseAdded": "Expense added successfully",
+      "expenseEdited": "Expense edited successfully",
+      "expenseDeleted": "Expense deleted successfully",
+      "balanceCopied": "Balance copied successfully",
+      "deleteAll": "All data has been deleted",
+      "eventCreated": "Event created",
+      "eventDeleted": "Event deleted",
+      "allEventsDeleted": "All events deleted",
+      "participantAdded": "Participant added",
+      "participantDeleted": "Participant deleted",
+      "expenseUpdated": "Expense updated"
+    }
+  }
+} 
