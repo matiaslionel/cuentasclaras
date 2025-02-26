@@ -95,32 +95,12 @@ export function EventList() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="flex justify-between items-center mb-8 flex-col sm:flex-row gap-3">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-          {t('events.title')}
-        </h1>
-        <div className="flex items-center gap-3 flex-wrap justify-center w-full sm:w-auto">
-          <button
-            onClick={() => setShowCreateModal(true)}
-            className="bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors"
-          >
-            <Plus size={20} />
-            {t('events.new')}
-          </button>
-          {events.length > 0 && (
-            <button
-              onClick={handleDeleteAll}
-              className="bg-red-500 hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors"
-            >
-              <Trash2 size={20} />
-              {t('events.deleteAll')}
-            </button>
-          )}
-        </div>
-      </div>
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-left">
+        {t('events.title')}
+      </h1>
 
       {events.length > 0 ? (
-        <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8">
           {events.map(event => (
             <Link
               key={event.id}
@@ -143,10 +123,29 @@ export function EventList() {
           ))}
         </div>
       ) : (
-        <div className="text-center text-gray-500 dark:text-gray-400 mt-8">
+        <div className="text-center text-gray-500 dark:text-gray-400 mt-8 mb-8">
           {t('events.empty')}
         </div>
       )}
+
+      <div className="flex items-center gap-3 flex-wrap justify-center sm:justify-start">
+        <button
+          onClick={() => setShowCreateModal(true)}
+          className="bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors"
+        >
+          <Plus size={20} />
+          {t('events.new')}
+        </button>
+        {events.length > 0 && (
+          <button
+            onClick={handleDeleteAll}
+            className="bg-red-500 hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors"
+          >
+            <Trash2 size={20} />
+            {t('events.deleteAll')}
+          </button>
+        )}
+      </div>
 
       {showCreateModal && (
         <CreateEventModal
