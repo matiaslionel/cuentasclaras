@@ -66,17 +66,12 @@ export function ExpenseList({
                   })}</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     {t('expenses.participants')}: {
-                      expense.splits && expense.splits.length > 0
-                        ? expense.splits
-                            .map(split => event.participants.find(u => u.id === split.user_id)?.name)
+                      expense.participants && expense.participants.length > 0 
+                        ? expense.participants
+                            .map(pid => event.participants.find(u => u.id === pid)?.name)
                             .filter(Boolean)
                             .join(', ')
-                        : expense.participants && expense.participants.length > 0 
-                          ? expense.participants
-                              .map(pid => event.participants.find(u => u.id === pid)?.name)
-                              .filter(Boolean)
-                              .join(', ')
-                          : t('expenses.noParticipants')
+                        : t('expenses.noParticipants')
                     }
                   </p>
                 </div>
